@@ -1,0 +1,131 @@
+body{
+  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+}
+header{
+  background-color: #5b7989;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+}
+header p {
+  text-align: right;
+}
+header p a {
+  color: white;
+  text-decoration: none;
+}
+#contenedor{
+  background-color: #82c3a6;
+}
+.c1 img{
+  width: 70%;
+  max-width: 100%;
+  margin-left: 15%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+#contenedor2{
+  background-color: #d5c75f ;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+.c2 img{
+	border: 2px solid;
+	-webkit-transition:all 0.5s ;
+	-moz-transition: all 0.5s ;
+	-ms-transition:all 0.5s ;
+  box-shadow: #82c3a6;
+   max-width: 100%;
+   width: 90%;
+   margin-left: 30%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+.c2 img:hover{
+	-webkit-tranform:rotate(10deg) ;
+	-moz-tranform:rotate(10deg) ;
+	-ms-tranform:rotate(10deg) ;
+	transform: rotate(10deg) ;
+}
+.c3 img{
+  border: 2px;
+  width: 100%;
+  box-shadow: #82c3a6;
+  -webkit-transition:all 0.5s;
+  -moz-transition:all 0.5s;
+  -ms-transition:0.5s;
+  transform: translatey(5px);
+  max-width: 100%;
+  margin-left: 60%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.c3 img:hover{
+-webkit-tranform:translatex(20px);
+-moz-transition:translatex(20px);
+-ms-transition:translatex(20px);
+transform: translateX(20px);
+}
+footer{
+  background-color:  #C6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+}
+.c4{
+  margin-left: 10%;
+}
+.c5{
+  margin-left: 10%;
+}
+.c6{
+  margin-left: 10%;
+}
+.c7{
+  margin-left: 10%;
+}
+.c6 img{
+  width: 25px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 899px){
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .c4{
+    order: 1;
+  }
+  .c5{
+    order: 2;
+  }
+  .c6{
+    order: 3;
+  }
+  .c7{
+    order: 4;
+  }
+  .c1{
+    width: 120%;
+    margin-left: -8%;
+  }
+  #contenedor2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .c2{
+    order: 1;
+    width: 80%;
+    margin-left: -55px;;
+  }
+  .c3{
+    order: 2;
+    width: 80%;
+    margin-left: -40%;
+  }
+}
